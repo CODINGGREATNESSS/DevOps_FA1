@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo '=== Test Stage ==='
                 // run a simple Python test
-                bat 'python3 hello.py'
+                bat 'python app.py'
             }
         }
 
